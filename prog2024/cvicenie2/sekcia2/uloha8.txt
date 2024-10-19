@@ -1,0 +1,25 @@
+Úloha č. 8
+Definujte funkciu postupny_sucet_geometrickeho_radu(a0,q,N) so vstupnými parametrami a0, q a
+N, v tomto poradí. Parametre a0, q, N znovu predstavujú geometrickú postupnosť, kde a0 je jej prvý
+člen, q je jej kvocient a N je počet členov postupnosti, podobne ako v úlohe číslo 7. Tentokrát však
+naprogramujte funkciu, ktorá postupne vypíše:
+- prvý člen postupnosti
+- súčet prvých 2 členov postupnosti
+- súčet prvých 3 členov postupnosti
+- súčet prvých 4 členov postupnosti
+…
+- súčet prvých N členov postupnosti
+V implementácii funkcie použite len jeden for-cyklus!
+Vstupy a výstupy:
+Volanie postupny_sucet_geometrickeho_radu(1,2,5) vypíše čísla
+1 (pretože 1 je prvý člen postupnosti)
+3 (pretože 3 = 1 + 2)
+7 (pretože 7 = 1 + 2 + 4)
+15 (pretože 15 = 1 + 2 + 4 + 8)
+31 (pretože 31 = 1 + 2 + 4 + 8 + 16)
+Volanie postupny_sucet_geometrickeho_radu(1,0.5,4) vypíše čísla predstavujúce postupné súčty
+členov postupnosti: 1, 0.5, 0.25, 0.125, teda:
+1 (pretože 1 je prvý člen postupnosti)
+1.5 (pretože 1.5 = 1 + 0.5)
+1.75 (pretože 1.75 = 1 + 0.5 + 0.25)
+1.875 (pretože 1.875 = 1 + 0.5 + 0.25 + 0.125)

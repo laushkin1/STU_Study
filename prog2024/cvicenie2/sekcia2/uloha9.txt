@@ -1,0 +1,33 @@
+Úloha č. 9
+Definujte funkciu grid(n) s parametrom n, ktorá vypíše na obrazovku mriežku s n riadkami a n
+stĺpcami podľa obrázkov nižšie.
+Pre n = 2 (mriežka s 2 „riadkami“ a 2 „stĺpcami“) by mriežka vyzerala nasledovne:
++ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - +
+
+Pre n = 3 (mriežka s 3 „riadkami“ a 3 „stĺpcami“) by mriežka vyzerala nasledovne:
++ - - - - + - - - - + - - - - +
+|         |         |         |
+|         |         |         |
+|         |         |         |
+|         |         |         |
++ - - - - + - - - - + - - - - +
+|         |         |         |
+|         |         |         |
+|         |         |         |
+|         |         |         |
++ - - - - + - - - - + - - - - +
+|         |         |         |
+|         |         |         |
+|         |         |         |
+|         |         |         |
++ - - - - + - - - - + - - - - +

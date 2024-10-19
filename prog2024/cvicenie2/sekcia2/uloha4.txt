@@ -1,0 +1,8 @@
+Úloha č. 4
+Upravte funkciu vypis(n) na obrázku tak, aby vypísala na obrazovku klesajúcu postupnosť čísiel
+od n po 1. Túto úpravu urobte tak, že zmeníte len riadok číslo 3, t.j. upravíte príkaz print(i)
+vhodným spôsobom!
+
+Vstupy a výstupy:
+Volanie vypis(5) vypíše na obrazovku čísla 5 4 3 2 1, každé na nový riadok.
+Volanie vypis(10) vypíše na obrazovku čísla 10 9 8 7 6 5 4 3 2 1, každé na nový riadok.

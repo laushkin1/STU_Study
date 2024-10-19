@@ -1,0 +1,11 @@
+Úloha č. 1
+Zadanie:
+Napíšte program (teda skript/zdrojový kód) v jazyku Python, ktorý realizuje nasledovnú činnosť.
+Program obsahuje premennú strana_a. Do tejto premennej sa priamo v zdrojovom kóde priradí
+nejaká hodnota predstavujúca veľkosť strany štvorca. Program najprv vypíše obvod a potom obsah
+daného štvorca.
+
+Príklady vstupov / výstupov programu:
+Ak sa do premennej strana_a priradí hodnota 5, potom obvod takého štvorca je 20 a obsah takého
+štvorca je 25. Program by teda pre situáciu, že v premennej a je uložená hodnota 5, mal vypísať na
+obrazovku čísla 20 a 25.

@@ -1,0 +1,18 @@
+Úloha č. 1
+Pozrite si nasledovný zdrojový kód a spustite si ho v prostredí IDLE:
+
+    import turtle
+    turtle.forward(60)
+    turtle.left(90)
+    turtle.forward(60)
+
+Malo by dôjsť k vykresleniu nasledovného obrázka:
+
+
+         /|\
+          |
+          |
+          |
+          |
+    ______|
+

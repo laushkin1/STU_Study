@@ -1,0 +1,3 @@
+Úloha č. 4
+Pomocou korytnačej grafiky nakreslite rovnostranný päťuholník. Veľkosť strany päťuholníka si
+môžete zvoliť ľubovoľne, napríklad 100 pixelov.

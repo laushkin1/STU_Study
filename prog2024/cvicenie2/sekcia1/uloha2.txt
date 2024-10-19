@@ -1,0 +1,10 @@
+Úloha č. 2
+Definujte funkciu tretia_mocnina(a), ktorá má 1 vstupný parameter, číslo a. Funkcia pre vstupný
+parameter a vráti tretiu mocninu parametra a.
+Ukážky vstupov a výstupov:
+Volanie funkcie so vstupným argumentom hodnoty 1, t.j. volanie tretia_mocnina(1), vráti hodnotu
+1, pretože 1*1*1 = 1.
+Volanie funkcie so vstupným argumentom hodnoty 2, t.j. volanie tretia_mocnina(2), vráti hodnotu
+8, pretože 2*2*2 = 8.
+Volanie funkcie so vstupným argumentom hodnoty 3, t.j. volanie tretia_mocnina(3), vráti hodnotu
+27, pretože 3*3*3 = 27.

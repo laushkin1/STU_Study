@@ -17,10 +17,8 @@ def sucet_prvocisel(n: int) -> int:
     if n <= 1: return 0
 
     if je_prvocislo(n):
-        print(f">>> {n} <<<")
         return n + sucet_prvocisel(n-1)
     else:
-        print(f"<<< {n} >>>")
         return sucet_prvocisel(n-1)
 
 if __name__ == "__main__":

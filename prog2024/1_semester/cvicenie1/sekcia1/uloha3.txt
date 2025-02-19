@@ -1,0 +1,23 @@
+Úloha č. 3
+Zadanie:
+Napíšte program (teda skript/zdrojový kód) v jazyku Python, ktorý realizuje nasledovnú činnosť.
+Program obsahuje premennú sekundy. Do tejto premennej sa priamo v zdrojovom kóde priradí
+číselná hodnota predstavujúca ubehnutý čas v sekundách. Program vypíše, koľko hodín / minút /
+sekúnd predstavuje hodnota v premennej sekundy
+
+Príklady vstupov / výstupov programu:
+1) Ak je v premennej sekundy hodnota 5043, program vypíše:
+1
+24
+3
+pretože 5043 sekúnd predstavuje 1 hodinu, 24 minút a 3 sekundy.
+2) Ak je v premennej sekundy hodnota 3012, program vypíše:
+0
+50
+12
+pretože 3012 sekúnd predstavuje 0 hodín, 50 minút a 12 sekúnd.
+3) Ak je v premennej sekundy hodnota 10000, program vypíše:
+2
+46
+40
+pretože 10000 sekúnd predstavuje 2 hodiny, 46 minút a 40 sekúnd

@@ -1,7 +1,0 @@
-Úloha č. 3
-Pomocou korytnačej grafiky a for-cyklu vykreslite nasledovný obrázok:
-
-*
-tento obrázok tu nemôžem nakresliť, ale môžete ho vidieť, ak spustíte uloha3.py
-(robil som to zložitejšie, ako by malo byť, ale úloha si vyžadovala len obrázok z 2 iterácií)
-*

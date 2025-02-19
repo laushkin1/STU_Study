@@ -1,2 +1,0 @@
-Úloha č. 2
-Definujte funkciu nuholnik(n) so vstupným parametrom n, ktorá vykreslí rovnostranný n-uholník.

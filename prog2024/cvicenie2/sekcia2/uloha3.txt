@@ -1,9 +1,0 @@
-Úloha č. 3
-Upravte funkciu vypis(n) na obrázku tak, aby vypísala na obrazovku prvých n párnych čísiel,
-začínajúc dvojkou. Túto úpravu urobte tak, že zmeníte len riadok číslo 3, t.j. upravíte príkaz
-print(i) vhodným spôsobom!
-
-Vstupy a výstupy:
-Volanie vypis(1) vypíše na obrazovku číslo 2.
-Volanie vypis(5) vypíše na obrazovku čísla 2 4 6 8 10, každé na nový riadok.
-Volanie vypis(10) vypíše na obrazovku čísla 2 4 6 8 10 12 14 16 18 20, každé na nový riadok.

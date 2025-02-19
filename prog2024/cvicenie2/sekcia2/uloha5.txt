@@ -1,8 +1,0 @@
-Úloha č. 5
-Definujte funkciu sucet_stvorcov(n) so vstupným parametrom n, ktorá vráti súčet
-1^2 + 2^2 + 3^2 + ... + n
-2 pričom tento súčet vypočítate pomocou for-cyklu!
-
-Vstupy a výstupy:
-Volanie sucet_stvorcov(3) vráti hodnotu 14, pretože 14 = 1^2 + 2^2 + 3^2
-Volanie sucet_stvorcov(5) vráti hodnotu 55, pretože 55 = 1^2 + 2^2 + 3^2 + 4^2 + 5^2

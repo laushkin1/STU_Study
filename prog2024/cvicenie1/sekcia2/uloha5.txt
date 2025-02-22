@@ -1,0 +1,18 @@
+Úloha č. 5
+Pomocou korytnačej grafiky nakreslite nasledovný obrázok:
+    
+      ____
+     |    |
+     |    |
+     |    |
+ ____|    |____
+|              |
+|              |
+|              |
+|____      ____|
+     |    |
+     |    |
+     |    |
+     |____|
+
+

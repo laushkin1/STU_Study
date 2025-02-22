@@ -1,0 +1,4 @@
+Úloha č. 4
+Pomocou korytnačej grafiky a for-cyklu vykreslite nasledovný obrázok:
+
+*tento obrázok tu nemôžem nakresliť, ale môžete ho vidieť, ak spustíte uloha4.py*

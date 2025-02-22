@@ -1,2 +1,0 @@
-Úloha č. 11
-Definujte funkciu tretia_mocnina(a) s 1 vstupným parametrom, a. Môžete predpokladať, že a je kladné celé číslo. Funkcia vráti tretiu mocninu čísla a. Funkciu implementujte bez použitia operátora * a bez použitia operátora ** a použite pri jej implementácii funkciu vynasob(a,b) z predošlej úlohy!

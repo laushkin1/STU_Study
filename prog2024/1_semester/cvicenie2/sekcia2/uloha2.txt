@@ -1,7 +1,0 @@
-Úloha č. 2
-Upravte funkciu vypis(n) na obrázku tak, aby vypísala na obrazovku prvých n čísiel väčších ako
-100. Túto úpravu urobte tak, že zmeníte len riadok číslo 3, t.j. upravíte príkaz print(i) vhodným
-spôsobom!
-
-Vstupy a výstupy:
-Volanie vypis(3) vypíše na obrazovku čísla 101 102 103, každé na nový riadok.

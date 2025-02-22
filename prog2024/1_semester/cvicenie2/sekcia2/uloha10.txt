@@ -1,7 +1,0 @@
-Úloha č. 10
-Definujte funkciu vynasob(a,b) s 2 vstupnými parametrami, a a b. Môžete predpokladať, že a aj b
-sú kladné celé čísla. Funkcia vráti súčin a*b. Funkciu implementujte bez použitia operátora *, t.j.
-bez násobenia!
-Hint: Zamyslite sa, ako je možné realizovať násobenie len pomocou opakovaného pripočítavania!
-Vstupy/výstupy:
-Volanie vynasob(2,5) vráti hodnotu 10

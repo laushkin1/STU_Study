@@ -1,6 +1,0 @@
-Úloha č. 1
-Upravte funkciu vypis(n) na obrázku tak, aby vypísala na obrazovku čísla od 1 po n. Túto úpravu
-urobte tak, že zmeníte len riadok číslo 3, t.j. upravíte príkaz print(i) vhodným spôsobom!
-
-Vstupy a výstupy:
-Volanie vypis(10) vypíše na obrazovku čísla 1 2 3 4 5 6 7 8 9 10, každé na nový riadok.

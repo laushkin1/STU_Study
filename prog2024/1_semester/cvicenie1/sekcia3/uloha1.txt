@@ -1,4 +1,0 @@
-Úloha č. 1
-Pomocou korytnačej grafiky a for-cyklu vykreslite nasledovný obrázok:
-
-*ako úloha 5, časť 2, ale väčší*

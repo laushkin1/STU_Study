@@ -1,3 +1,0 @@
-Úloha č. 3
-Pomocou korytnačej grafiky nakreslite rovnostranný trojuholník. Veľkosť strany trojuholníka si
-môžete zvoliť ľubovoľne, napríklad 100 pixelov.

@@ -1,0 +1,10 @@
+Úloha č. 12
+Definujte funkciu umocni(n,k) s 2 vstupnými parametrami, n a k. Môžete predpokladať, že n aj k sú
+kladné celé čísla. Funkcia vráti k-tu mocninu čísla n, t.j. n
+k.. Funkciu implementujte bez použitia
+operátora * a bez použitia operátora **.
+
+Vstupy/výstupy:
+Volanie umocni(1,5) vráti hodnotu 1.
+Volanie umocni(2,5) vráti hodnotu 32.
+Volanie umocni(3,4) vráti hodnotu 81.

@@ -10,9 +10,7 @@ int CountOnes = 0;
 void ul1();
 void ul2();
 void ul3();
-//void ul4();
 void ul5();
-//void ul6();
 
 void printBinFromNum(int n);
 float normRad(float r);
@@ -35,7 +33,7 @@ int main() {
 void ul1() {
   int cislo = 33777;
   char znak = 'X';
-    
+
   printf("ul1\n");
   printf("This task represents number %d and character %c to DEC, HEX, and BIN\n", cislo, znak);
 
@@ -68,7 +66,7 @@ void ul2() {
   // For 0 < numbers <= 15
   int big_count = sizeof(unsigned int);
   b %= big_count;
-  unsigned int c = (a<<(big_count-b) | a>>b) & 15; // idk but its not working without & 15, some bit is turn to 1 but should be 0, so I just cut last 4 bits (1111)
+  unsigned int c = (a<<(big_count-b) | a>>b) & 15;
   
   // For all numbers
   // int big_count = sizeof(unsigned int) * 8;
@@ -99,7 +97,7 @@ void ul3() {
 
 void ul5(){
   float degrees, radians;
-  float epsilon = 0.0000000000000000000001;
+  float epsilon = 0.000000000000000000001;
   
   printf("ul5\n");
   printf("This function emulates sin\n");

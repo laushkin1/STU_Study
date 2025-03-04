@@ -18,7 +18,7 @@ for scenario in "$TEST_DIR"/s*/; do
 
         $EXEC < "$infile" > temp_output.txt
 
-        if diff -q temp_output.txt "$expected_outfile" >/dev/null; then
+        if diff -q --strip-trailing-cr temp_output.txt "$expected_outfile" >/dev/null; then
             echo "   -- $testnum. ✅ Done"
         else
             echo "   -- $testnum. ❌ False"

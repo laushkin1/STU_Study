@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EXEC="../../.run/z1"
+EXEC="../../../.run/z1"
 TEST_DIR="./tests_z1"
 
 for scenario in "$TEST_DIR"/s*/; do

@@ -1,3 +1,6 @@
 **.DS_Store
 **.idea
 **__pycache__/*
+.run/*
+prog2025/Programing/zadanie2/cmake-build-debug/*
+.fleet/*

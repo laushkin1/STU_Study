@@ -6,13 +6,13 @@
 #include <time.h>
 
 void ul1_1();       // 1 Done
-void ul1_2();       // 1
-void ul1_3();       // 3
-void ul1_4();       // 2
+void ul1_2();       // 1 Done
+void ul1_3();       // 3 Done
+void ul1_4();       // 2 Done
 void ul2();         // 3 Done
-void ul3_2();       // 1
-void ul5_1();       // 1
-void ul6();         // 4
+void ul3_2();       // 1 Done
+void ul5_1();       // 1 Done
+void ul6();         // 4 Done
 
 int add_assembler(int input1, int input2, int output);
 int multiply_by_two_assembler(int num);
@@ -23,14 +23,14 @@ void decrypt_file(const char *input_filename, const char *output_filename);
 
 int main()
 {
-    // ul1_1();
-    // ul1_2();
-    // ul1_3();
-    // ul1_4();
-    // ul2();
-    // ul3_2(); // terminal in .run folder
-    // ul5_1();
-    // ul6(); // terminal in .run folder
+    ul1_1();
+    ul1_2();
+    ul1_3();
+    ul1_4();
+    ul2();
+    ul3_2(); // terminal in .run folder
+    ul5_1();
+    ul6(); // terminal in .run folder
 
     return 0;
 }

@@ -19,7 +19,7 @@
 #define COLOR_BLUE    "\033[0;34m"
 #define COLOR_RESET   "\033[0m"
 
-#define SLEEP_TIME 5
+#define SLEEP_TIME 50000
 
 
 void error(const char *msg);

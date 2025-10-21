@@ -1,1 +1,1 @@
-# This is repository with my STU Homework from first year
+# This is repository with my STU Homework

@@ -1,0 +1,49 @@
+######################################################################
+=== VÝSLEDNÉ TABUĽKY PRE DOKUMENTÁCIU (SKOPÍRUJ DO REPORTU) ===
+######################################################################
+
+Tabuľka 1: Zvolené modely a hlavné hyperparametre.
+Model	Architektúra	Epochy	LR	        Batch
+M1	    VGG16		    20	    0.0001	    32
+M2	    ResNet18	    20	    0.0001	    32
+M3	    MobileNet	    20	    0.0001	    32
+
+Tabuľka 2: Výsledky 3 behov pre model M1 pri trénovaní od nuly (from scratch).
+Beh	Train loss	Train acc [%]	Val loss	Val acc [%]	Test loss	Test acc [%]
+1	1.369		52.4		    1.541		46.2		1.466		48.4
+2	1.424		50.7		    1.556		45.4		1.434		49.2
+3	1.266		55.5		    1.570		45.3		1.418		51.1
+
+Tabuľka 3: Výsledky 3 behov pre model M1 pri transfer learningu (TL).
+Beh	Train loss	Train acc [%]	Val loss	Val acc [%]	Test loss	Test acc [%]
+1	0.409		86.6		    0.506		83.7		0.352		89.0
+2	0.401		87.4		    0.505		84.4		0.352		89.3
+3	0.410		86.6		    0.505		84.6		0.349		88.8
+
+Tabuľka 4: Súhrnné porovnanie režimov trénovania od nuly (from scratch) a transfer learningu (TL) pre model M1.
+Režim	    Priemer train loss	Priemer train acc [%]	Priemer val loss	Priemer val acc [%]	    Priemer test loss	Priemer test acc [%]
+scratch	    1.353			    52.9			        1.556			    45.6			        1.439			    49.5
+TL	        0.407			    86.9			        0.505			    84.2			        0.351			    89.1
+
+Tabuľka 5: Súhrnné porovnanie priemerných výsledkov modelov M1, M2, M3 pri trénovaní od nuly (from scratch).
+Model	Architektúra	Priemer test loss od nuly	Priemer test acc [%] od nuly	Splnenie podmienky 90%
+M1	    VGG16		    1.439				        49.5				            nie
+M2	    ResNet18		1.452				        51.4				            nie
+M3	    MobileNet		1.515				        47.8				            nie
+
+Tabuľka 6: Súhrnné porovnanie priemerných výsledkov modelov M1, M2, M3 pri transfer learningu (TL).
+Model	Architektúra	Priemer test loss TL	Priemer test acc [%] TL	Splnenie podmienky 93%
+M1	    VGG16		    0.351			        89.1			nie
+M2	    ResNet18		0.381			        89.2			nie
+M3	    MobileNet		0.387			        90.3			nie
+
+Tabuľka 7: Výsledky 3 behov pre najlepší model (M3) po doplnení augmentácie.
+Beh	Train loss	Train acc [%]	Val loss	Val acc [%]	Test loss	Test acc [%]
+1	0.720		78.5		    0.571		85.4		0.474		88.0
+2	0.715		79.4		    0.573		84.4		0.472		88.2
+3	0.713		78.9		    0.571		84.6		0.473		88.0
+
+Tabuľka 8: Porovnanie najlepšieho modelu (M3 MobileNet) bez augmentácie a s augmentáciou.
+Varianta	Val loss	Val acc [%]	Test loss	Test acc [%]	Priemer epochy začiatku pretrénovania
+bez aug.	0.487		85.3		0.387		90.3		20.0
+s aug.		0.572		84.8		0.473		88.1		20.0

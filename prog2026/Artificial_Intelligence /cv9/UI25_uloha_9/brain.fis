@@ -1,0 +1,47 @@
+[System]
+Name='brain'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='cars_green'
+Range=[0 40]
+NumMFs=3
+MF1='low':'trapmf',[0 0 3 7]
+MF2='medium':'trimf',[4 9 14]
+MF3='high':'trapmf',[11 16 40 40]
+
+[Input2]
+Name='cars_red'
+Range=[0 120]
+NumMFs=3
+MF1='low':'trapmf',[0 0 8 16]
+MF2='medium':'trimf',[12 30 48]
+MF3='high':'trapmf',[40 55 120 120]
+
+[Output1]
+Name='green_duration'
+Range=[26 30]
+NumMFs=3
+MF1='short':'trapmf',[26 26 27 28]
+MF2='medium':'trimf',[27 28.5 30]
+MF3='long':'trapmf',[28 29 30 30]
+
+[Rules]
+1 1, 2 (1) : 1
+1 2, 2 (1) : 1
+1 3, 2 (1) : 1
+2 1, 3 (1) : 1
+2 2, 3 (1) : 1
+2 3, 3 (1) : 1
+3 1, 3 (1) : 1
+3 2, 3 (1) : 1
+3 3, 3 (1) : 1
